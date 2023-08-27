@@ -61,10 +61,10 @@ footer {
     background-color: #333;
     color: white;
     flex-shrink: 0;
-    position: absolute;
+    position: fixed; 
     bottom: 0;
-    left: 0; /* Add this line to ensure the footer spans the entire width */
-    
+    left: 0; 
+    width: 100%; 
 }
 
 /* Add responsive styles */
